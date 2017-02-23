@@ -1,0 +1,64 @@
+
+## Exercise 8
+formatter = "%r %r %r %r"
+print formatter % (1, 2, 3, 4)
+print formatter % ("one", 'two', 'three', 'four')
+print formatter % (True, False, False, True)
+print formatter % (formatter, formatter, formatter, formatter)
+print formatter % (
+    "I had this thing",
+    "that you could type up right",
+    "But it didn't sing.",
+    "So I said goodnight"
+)
+
+## Exercise 9
+### Here's some new strang estuff, remember type if exactly
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+
+print "here are the days: ", days
+print "here are the months: ", months
+
+print """
+There's something going on here.
+with the three double quotes.
+We'll be able to type as much as we like
+Even 4 Lines if we want, or 5 or 6."""
+
+## Exercise 10
+tabby_cat = "\tI'm tabbed in."
+persian_cat = "I'm split\non a line."
+backslash_cat = "I'm \\ a \\ cat"
+
+fat_cat = """I'll do a list
+\t*Cat food
+\t*Fishies
+\t*Catnip\n\t* Grass"""
+
+print tabby_cat
+print persian_cat
+print backslash_cat
+print fat_cat
+
+## Exercise 11
+
+print "How old are you?",
+age = raw_input()
+print "How tall are you?",
+height = raw_input()
+print "How much do you weigh?",
+weight = raw_input()
+
+print "So you're %r old, %r tall and %r heavy" % (age,
+    height, weight)
+
+## Exercise 12
+
+age = raw_input("How old are you? ")
+height = raw_input("How Tall are you? ")
+weight = raw_input("how much do you weigh? ")
+
+print "So, you're %r old, %r tall and %r heavy." % (
+    age, height, weight)
+
